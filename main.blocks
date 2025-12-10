@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="KdCiAmw%k%`k/BvR%0yV" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="u698?nI1;1_dx;_G!d*2"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="rbpPN8Q!k%m~Z]cu[Hw`"><value name="melody"><shadow type="melody_editor" id="zy@!n7_oh6f`HLpj+x.P"><field name="melody">"C5 C5 C5 G G - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="ybeX|-QkuK:}N+c6m?aM"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_leds" id="Yfi4+T(L.6UTs*9H6aCs"><field name="LEDS">`
+        # # # # # 
+        # . . # # 
+        # . . . # 
+        # . . # # 
+        # # # # #
+        `</field></block></next></block></statement></block><block type="device_forever" id="Su;Ouw24fr!+T/1ZqglI" x="257" y="258"><statement name="HANDLER"><block type="cuteBot_colorLight" id="[wht,N+Uz`%tDvwAM%tT"><field name="light">cuteBot.RGBLights.RGB_L</field><value name="color"><shadow type="colorNumberPicker" id="Dzy_ZZvlpL1LPh-c_qj$"><field name="value">0x0000ff</field></shadow></value><next><block type="cuteBot_colorLight" id="i@ioWcWyWi[IfWK.qYVf"><field name="light">cuteBot.RGBLights.ALL</field><value name="color"><shadow type="colorNumberPicker" id="r/]qIE#h2LWb@1vG,aE9"><field name="value">0x0000ff</field></shadow></value><next><block type="music_playable_play" id="{~=eCK8QgDr_s*RzQ3B9"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="[aE-?yD{B?/JplX~{M{n"><value name="melody"><shadow type="melody_editor" id="E{!}Mw_asdH]]}Ro9GP!"><field name="melody">"A A A A A A A A "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="bMdm9G+Vzj4H59~q_/!^"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_leds" id="YpSbEJ(4AoX{A5xpP@E+"><field name="LEDS">`
+        # # . . # 
+        . . # # . 
+        # # . . # 
+        . . # # . 
+        # # . . #
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
